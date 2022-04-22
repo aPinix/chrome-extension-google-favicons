@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "module": "es6",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": false,
+    "types": [
+      "node",
+      "chrome",
+      // "gapi",
+      // "gapi.auth2",
+      // "gapi.client.sheets"
+    ],
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "src/*",
+        "node_modules/*"
+      ]
+    }
+  }
+}

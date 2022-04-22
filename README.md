@@ -2,7 +2,7 @@
 
 ![Google Favicons - Icon](/assets/icons/128.png)
 
-[Google Favicons - Download](https://chrome.google.com/webstore/detail/google-favicons/...)
+[Google Favicons - Download](https://chrome.google.com/webstore/detail/google-favicons/cmcbegomkmagehbkohhodmiohbcfkchc)
 
 ## Description
 

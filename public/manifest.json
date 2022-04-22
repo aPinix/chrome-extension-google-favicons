@@ -1,23 +1,28 @@
 {
   "name": "Google Favicons",
-  "description": "Google search with favicons.",
-  "version": "1.0",
+  "description": "Google search page results with favicons",
+  "version": "1.0.0",
   "manifest_version": 3,
-  "icons": {
-    "48": "/assets/icons/48.png",
-    "128": "/assets/icons/128.png"
-  },
   "action": {
-    "default_popup": "popup.html",
+    "default_title": "Add favicons",
     "default_icon": {
-    "48": "/assets/icons/48.png",
-    "128": "/assets/icons/128.png"
+      "16": "./images/icons/icon-16.png",
+      "32": "./images/icons/icon-32.png",
+      "48": "./images/icons/icon-48.png",
+      "128": "./images/icons/icon-128.png"
     }
   },
+  "icons": {
+    "16": "./images/icons/icon-16.png",
+    "32": "./images/icons/icon-32.png",
+    "48": "./images/icons/icon-48.png",
+    "128": "./images/icons/icon-128.png"
+  },
+  "permissions": [],
   "content_scripts": [
     {
-      "css": ["assets/css/favicons.css"],
-      "js": ["assets/js/favicons.js"],
+      "css": ["css/favicons.css"],
+      "js": ["contentscript.js"],
       "matches": [
         "*://google.com/*",
         "*://www.google.com/*",
@@ -221,6 +226,5 @@
       ],
       "run_at": "document_idle"
     }
-  ],
-  "permissions": ["activeTab"]
+  ]
 }

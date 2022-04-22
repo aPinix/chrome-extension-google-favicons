@@ -1,0 +1,22 @@
+{
+  "liveServer.settings.port": 5501,
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // stylelint
+  "stylelint.validate": ["css", "scss"],
+  "stylelint.enable": true,
+  "css.validate": true,
+  "scss.validate": true,
+
+  // code actions
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.prettier": true,
+    "source.fixAll.stylelint": true
+  }
+}
